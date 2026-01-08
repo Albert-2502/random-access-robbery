@@ -27,7 +27,6 @@ public class LoadSceneOnGrab : MonoBehaviour
 
     private void OnGrabbed(SelectEnterEventArgs args)
     {
-        Debug.Log("RAM Grabbed!");
         if (delaySeconds > 0f)
             Invoke(nameof(LoadScene), delaySeconds);
         else
@@ -39,12 +38,10 @@ public class LoadSceneOnGrab : MonoBehaviour
         XRSceneTransition transition = FindObjectOfType<XRSceneTransition>();
         if (transition != null)
         {
-            Debug.Log("Found Transition Script - Starting Fade");
             transition.LoadSceneWithFade(sceneToLoad);
         }
         else
         {
-            Debug.LogError("COULD NOT FIND XRSceneTransition script in the scene!");
             SceneManager.LoadScene(sceneToLoad);
         }
     }
