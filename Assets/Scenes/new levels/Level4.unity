@@ -1733,7 +1733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daf124e682679c9448b60c94fafa01cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoadSceneOnGrab
-  sceneToLoad: Level1
+  sceneToLoad: Level5
   delaySeconds: 0
 --- !u!114 &1639505188
 MonoBehaviour:

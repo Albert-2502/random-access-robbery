@@ -2213,6 +2213,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 848760916632121826, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 848760917670474941, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 848760918102516119, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3441031284032896101, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3441031284065636972, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.63
@@ -2261,6 +2277,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3598018018945881629, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3951479258035720529, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
       propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
       value: 
@@ -2268,6 +2288,22 @@ PrefabInstance:
     - target: {fileID: 3951479259911905723, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
       propertyPath: m_LODs.Array.data[1].renderers.Array.data[0].renderer
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4772386672299049470, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4772386672691659911, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5830768581805325414, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533980904684293585, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6569743257740718896, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
@@ -2286,6 +2322,10 @@ PrefabInstance:
       value: -0.105
       objectReference: {fileID: 0}
     - target: {fileID: 6569743258359370910, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106941617535082194, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -2481,7 +2521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daf124e682679c9448b60c94fafa01cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoadSceneOnGrab
-  sceneToLoad: Level3
+  sceneToLoad: Level4
   delaySeconds: 0
 --- !u!114 &1639505188
 MonoBehaviour:
@@ -3159,7 +3199,7 @@ MonoBehaviour:
   cc: {fileID: 1941280387}
   groundLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 65
 --- !u!143 &1941280387 stripped
 CharacterController:
   m_CorrespondingSourceObject: {fileID: 6232745470614056090, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
