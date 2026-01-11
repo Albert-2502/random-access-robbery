@@ -6349,7 +6349,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Welcome! You can use this place\nto start the game, or to get used \nto
-    the controls while enjoying\na little bit of bowling or some\ntarghet practice.\nEnjoy!\n"
+    the controls while enjoying\na little bit of bowling or some\ntarget practice.\nEnjoy!\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
