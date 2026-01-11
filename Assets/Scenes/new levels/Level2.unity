@@ -1510,6 +1510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Device Simulator
       objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187037, guid: 18ddb545287c546e19cc77dc9fbb2189, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1883,7 +1887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daf124e682679c9448b60c94fafa01cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoadSceneOnGrab
-  sceneToLoad: Level1
+  sceneToLoad: Level3
   delaySeconds: 0
 --- !u!114 &1639505188
 MonoBehaviour:
