@@ -1100,20 +1100,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Renderer: {fileID: 897582555}
   m_MaterialIndex: 0
---- !u!114 &45852342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
-  m_Name: Controller/Menu
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
-  m_Asset: {fileID: -944628639613478452, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
-  m_ActionId: ccb35b49-777b-460f-bca8-3168c41cc779
 --- !u!1 &48887370
 GameObject:
   m_ObjectHideFlags: 0
@@ -4371,20 +4357,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Renderer: {fileID: 183015455}
   m_MaterialIndex: 0
---- !u!114 &153670354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
-  m_Name: XRI Left Interaction/Primary Button
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
-  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  m_ActionId: 3c2ab564-43ab-464f-a963-73ceeee1ccd6
 --- !u!1 &157187836
 GameObject:
   m_ObjectHideFlags: 0
@@ -9815,6 +9787,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Renderer: {fileID: 366431130}
   m_MaterialIndex: 0
+--- !u!114 &425747460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Left Interaction/Primary Button
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: 3c2ab564-43ab-464f-a963-73ceeee1ccd6
 --- !u!1 &426509053
 GameObject:
   m_ObjectHideFlags: 0
@@ -19278,6 +19264,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1725036291}
+    - targetCorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1725036292}
     - targetCorrespondingSourceObject: {fileID: 202364687, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1661453996}
@@ -20953,6 +20942,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Renderer: {fileID: 1896387986}
   m_MaterialIndex: 0
+--- !u!143 &911521427 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 6232745470614056090, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+  m_PrefabInstance: {fileID: 839025038}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &913973454
 GameObject:
   m_ObjectHideFlags: 0
@@ -22816,6 +22810,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Renderer: {fileID: 1577320150}
   m_MaterialIndex: 0
+--- !u!114 &948244891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Left Interaction/Menu Button
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: cd74ad04-754e-4d57-88cb-407802761ef9
 --- !u!1 &949933368
 GameObject:
   m_ObjectHideFlags: 0
@@ -42210,7 +42218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WristFlashlightToggle
   targetLight: {fileID: 1711167896}
-  toggleAction: {fileID: 153670354}
+  toggleAction: {fileID: 425747460}
 --- !u!114 &1661453997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42226,7 +42234,7 @@ MonoBehaviour:
   pauseMenu: {fileID: 1272963178}
   playerCamera: {fileID: 839025042}
   menuDistance: 0.5
-  toggleAction: {fileID: 45852342}
+  toggleAction: {fileID: 948244891}
 --- !u!1 &1664985620
 GameObject:
   m_ObjectHideFlags: 0
@@ -44212,6 +44220,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AutoResetLevel
   threshold: -1
+--- !u!114 &1725036292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725036290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c30b79e53bbda499a7fdf7090cdbff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerJump
+  jumpButton:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Jump Button
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: dea431d3-7f6b-41be-a12c-599d04f7d194
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 2053168149}
+  jumpHeight: 2
+  cc: {fileID: 911521427}
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 65
 --- !u!1 &1726379085
 GameObject:
   m_ObjectHideFlags: 0
@@ -53959,6 +53996,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Renderer: {fileID: 117238241}
   m_MaterialIndex: 0
+--- !u!114 &2053168149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Right Interaction/Jump
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: 6a9b5167-dcc4-4510-bc75-f45b5d190e7b
 --- !u!1 &2053330355
 GameObject:
   m_ObjectHideFlags: 0

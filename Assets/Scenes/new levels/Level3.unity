@@ -717,20 +717,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
---- !u!114 &360073383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
-  m_Name: Controller/Menu
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
-  m_Asset: {fileID: -944628639613478452, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
-  m_ActionId: ccb35b49-777b-460f-bca8-3168c41cc779
 --- !u!1 &384752294
 GameObject:
   m_ObjectHideFlags: 0
@@ -2234,6 +2220,20 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3667051746007278424, guid: 7bbb1960bab3e75459304488d8d1ffba, type: 3}
   m_PrefabInstance: {fileID: 764220618}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &768893294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Left Interaction/Primary Button
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: 3c2ab564-43ab-464f-a963-73ceeee1ccd6
 --- !u!1 &770857934
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,6 +2523,20 @@ Transform:
   - {fileID: 1491181014}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1043525913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Left Interaction/Menu Button
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: cd74ad04-754e-4d57-88cb-407802761ef9
 --- !u!1 &1080280731
 GameObject:
   m_ObjectHideFlags: 0
@@ -2705,20 +2719,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5289182684458692541, guid: e5db301629853dd4a99835fa70099d79, type: 3}
   m_PrefabInstance: {fileID: 1177178567}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1191099374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
-  m_Name: XRI Left Interaction/Primary Button
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
-  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  m_ActionId: 3c2ab564-43ab-464f-a963-73ceeee1ccd6
 --- !u!1001 &1289883194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3037,7 +3037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WristFlashlightToggle
   targetLight: {fileID: 518474560}
-  toggleAction: {fileID: 1191099374}
+  toggleAction: {fileID: 768893294}
 --- !u!4 &1447588738 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 202364688, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -3058,7 +3058,7 @@ MonoBehaviour:
   pauseMenu: {fileID: 764220619}
   playerCamera: {fileID: 882772234}
   menuDistance: 0.5
-  toggleAction: {fileID: 360073383}
+  toggleAction: {fileID: 1043525913}
 --- !u!1 &1491181013
 GameObject:
   m_ObjectHideFlags: 0
@@ -3070,9 +3070,8 @@ GameObject:
   - component: {fileID: 1491181014}
   - component: {fileID: 1491181017}
   - component: {fileID: 1491181016}
-  - component: {fileID: 1491181015}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Parking Space
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3086,35 +3085,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1491181013}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.45, y: 0.01, z: -10.09}
-  m_LocalScale: {x: 0.25, y: 1, z: 0.25}
+  m_LocalRotation: {x: 0, y: 0.18223555, z: 0, w: 0.9832549}
+  m_LocalPosition: {x: -2.358, y: 0.01, z: -10.094}
+  m_LocalScale: {x: 0.13526, y: 1, z: 0.25}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1006235742}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &1491181015
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1491181013}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 21, z: 0}
 --- !u!23 &1491181016
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3321,7 +3298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1090320872577550145, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.46
+      value: 2.643
       objectReference: {fileID: 0}
     - target: {fileID: 3441031284032896101, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
       propertyPath: m_IsActive
@@ -3401,7 +3378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6056764949744736944, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.37
+      value: 2.5529995
       objectReference: {fileID: 0}
     - target: {fileID: 6533980904684293585, guid: 03a0bcd944ce49b45ac682706dfbf6f5, type: 3}
       propertyPath: m_Layer
