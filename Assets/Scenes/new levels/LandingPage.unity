@@ -12337,6 +12337,20 @@ Transform:
   - {fileID: 111016230}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!114 &774173421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Left Interaction/Menu Button
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: cd74ad04-754e-4d57-88cb-407802761ef9
 --- !u!1001 &785113072
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16999,7 +17013,7 @@ MonoBehaviour:
   pauseMenu: {fileID: 1360444226}
   playerCamera: {fileID: 2054463297}
   menuDistance: 0.5
-  toggleAction: {fileID: 1423245777}
+  toggleAction: {fileID: 774173421}
 --- !u!114 &1107648713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20610,20 +20624,6 @@ Transform:
   - {fileID: 2101909116}
   m_Father: {fileID: 1751840141}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1423245777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
-  m_Name: XRI Left Interaction/Menu Button
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
-  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  m_ActionId: cd74ad04-754e-4d57-88cb-407802761ef9
 --- !u!1 &1424493620
 GameObject:
   m_ObjectHideFlags: 0
