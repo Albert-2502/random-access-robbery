@@ -14901,6 +14901,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8786277449610116406, guid: 825faa7af51c8dd4599e4a67af5e543a, type: 3}
+      propertyPath: m_text
+      value: 'Bowling
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786277449610116406, guid: 825faa7af51c8dd4599e4a67af5e543a, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
       objectReference: {fileID: 0}
