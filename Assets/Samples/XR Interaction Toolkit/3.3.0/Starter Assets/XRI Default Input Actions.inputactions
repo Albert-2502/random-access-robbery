@@ -985,6 +985,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Menu Button",
+                    "type": "Button",
+                    "id": "cd74ad04-754e-4d57-88cb-407802761ef9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1282,6 +1291,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Primary Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "502f7730-3b53-4df9-a9f4-5876ca1f05f0",
+                    "path": "<XRController>{LeftHand}/{Menu}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu Button",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
